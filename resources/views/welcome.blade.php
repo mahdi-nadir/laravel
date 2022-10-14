@@ -7,6 +7,6 @@
 
 <h1>{{__('text.home')}}</h1>
 
-<a href="">{{__('text.french')}}</a>   
+<a href="{{ $fr }}">{{__('text.french')}}</a>   
 
-<a href="">{{__('text.english')}}</a>
+<a href="{{ $en }}">{{__('text.english')}}</a>

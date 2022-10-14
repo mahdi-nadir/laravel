@@ -7,10 +7,6 @@
 
 <h1>{{__('text.team')}}</h1>
 
-@isset($fr)
-<a href="fr">{{__('text.french')}}</a>   
-@endisset
+<a href="{{ $fr }}">{{__('text.french')}}</a>   
 
-@isset($en)
-<a href="en">{{__('text.english')}}</a>
-@endisset
+<a href="{{ $en }}">{{__('text.english')}}</a>
